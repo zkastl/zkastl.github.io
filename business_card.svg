@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 336 192" width="1083" height="633">
+  <style>
+    .label-font {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 10px;
+    }
+    .email-font {
+      font-family: "Courier New", Courier, monospace;
+      font-size: 24px;
+    }
+    text {
+      text-anchor: middle;
+    }
+  </style>
+  <defs>
+    <filter id="coolEffect">
+      <!-- Filter primitives will be written here -->
+          <feTurbulence baseFrequency="0.2"/>
+          <feColorMatrix values="0 0 0 9 -4
+                                0 0 0 9 -4
+                                0 0 0 9 -4
+                                0 0 0 0 1"/>
+    </filter>
+  </defs>
+  <rect width="336" height="192" filter="url(#coolEffect)"/>
+  <rect x="3%" y="5.2%" width="94%" height="89.6%" fill="white" opacity="100%" />
+  <!-- <rect x="0" y="0" width="100%" height="100%" fill="white" opacity="100%" /> -->
+  <rect x="7%" y="12%" width="86%" height="76%" fill="none" stroke="black" stroke-width="0" />
+
+  <g transform="translate(168, 96)">
+    <g fill="none" stroke="black">
+      <path name="me path" d="M -142 -20 L -142 -25 L -101 -25 L -101 -20 M -120 -25 L -120 -30"/>
+      <path name="website_path" d="M -82 -20 L -82 -25 L 140 -25 L 140 -20 M 17 -25 L 17 -30" />
+      <path name="github_path" d="M -97 5 L -97 8 L -1 8 L -1 5 M -50 8 L -50 14" />
+      <!-- <path name="email_path" d="M -140 8 L -140 40 L 140 40 L 140 8 M 0 40 L 0 45" /> -->
+    </g>
+
+    <text class="label-font" x="-50" y="22">github</text>
+    <text class="label-font" x="18" y="-32">website</text>
+    <text class="label-font" x="-120" y="-32">me</text>
+    <text class="email-font" x="0" y="0">zak@zkastl.github.io</text>
+    <text class="label-font" x="0" y="70">zkastl8@gmail.com</text>
+    <!-- <text class="label-font" x="0" y="52">email</text> -->
+  </g>
+</svg>
