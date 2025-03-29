@@ -2,6 +2,10 @@
   <style>
     .label-font {
       font-family: "Courier New", Courier, monospace;
+      font-size: 12px;
+    }    
+    .contact-font {
+      font-family: "Courier New", Courier, monospace;
       font-size: 10px;
     }
     .email-font {
@@ -35,11 +39,12 @@
       <!-- <path name="email_path" d="M -140 8 L -140 40 L 140 40 L 140 8 M 0 40 L 0 45" /> -->
     </g>
 
-    <text class="label-font" x="-50" y="22">github</text>
-    <text class="label-font" x="18" y="-32">website</text>
-    <text class="label-font" x="-120" y="-32">me</text>
+    <text class="label-font" x="-120" y="-35">me</text>
+    <text class="label-font" x="18" y="-35">website</text>
+    <text class="label-font" x="-50" y="25">github</text>
     <text class="email-font" x="0" y="0">zak@zkastl.github.io</text>
-    <text class="label-font" x="0" y="70">zkastl8@gmail.com</text>
+    <text class="contact-font" x="0" y="60">xxx-yyy-zzzz</text>
+    <text class="contact-font" x="0" y="70">zkastl8@gmail.com</text>
     <!-- <text class="label-font" x="0" y="52">email</text> -->
   </g>
 </svg>
