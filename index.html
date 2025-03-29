@@ -1,17 +1,206 @@
-<title>My Webpage</title>
-<body>
-    <h1>Zak's Webpage</h1>
-    
-    <h2>Introduction</h2>
-    <p>Hi, my name is Zak, and I am a PhD student in computer science at the University of Oklahoma. This is my website. Isn't it exciting?! I will try to post things here that I find interesting and direct people to projects they might be interested in. Enjoy.</p>
-    
-    <h2>About Me</h2>
-    <p>I have been a software engineer for 15 years. I've worked for the FAA, and currently work for the United States Air Force as a research scientist.</p>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <neta charset="UTF-8">
+        <title>Zak's Webpage</title>
+        <style> /* Base styles */
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                line-height: 1.6;
+                margin: 0;
+                padding: 0;
+                color: #333;
+                background-color: #f9f9f9;
+            }
+            
+            /* Container */
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 20px;
+                background-color: white;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            
+            /* Header styles */
+            header {
+                background-color: #2c3e50;
+                color: white;
+                padding: 30px 0;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            
+            header h1 {
+                margin: 0;
+                font-size: 2.5em;
+                letter-spacing: 1px;
+            }
+            
+            /* Section styles */
+            section {
+                margin-bottom: 40px;
+                padding: 0 20px;
+            }
+            
+            /* Heading styles */
+            h1, h2, h3 {
+                color: #2c3e50;
+                font-weight: 600;
+            }
+            
+            h2 {
+                border-bottom: 2px solid #ecf0f1;
+                padding-bottom: 10px;
+                margin-top: 30px;
+            }
+            
+            h3 {
+                margin-top: 20px;
+                color: #34495e;
+            }
+            
+            /* Link styles */
+            a {
+                color: #3498db;
+                text-decoration: none;
+                transition: color 0.3s;
+            }
+            
+            a:hover {
+                color: #2980b9;
+                text-decoration: underline;
+            }
+            
+            /* List styles */
+            ul {
+                padding-left: 20px;
+            }
+            
+            li {
+                margin-bottom: 8px;
+            }
+            
+            /* Business card */
+            .business-card {
+                margin: 30px auto;
+                text-align: center;
+                max-width: 600px;
+                padding: 15px;
+                background-color: #f8f9fa;
+                border-radius: 8px;
+                box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            }
+            
+            /* Skills section */
+            .skills {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 15px;
+            }
+            
+            .skill {
+                background-color: #e7f2fa;
+                color: #2980b9;
+                border-radius: 20px;
+                padding: 8px 16px;
+                font-size: 0.9em;
+                transition: all 0.3s;
+            }
+            
+            .skill:hover {
+                background-color: #2980b9;
+                color: white;
+                transform: translateY(-2px);
+            }
+            
+            /* Projects */
+            .project {
+                background-color: #f8f9fa;
+                border-left: 4px solid #3498db;
+                padding: 15px;
+                margin-bottom: 20px;
+                border-radius: 0 4px 4px 0;
+                transition: transform 0.3s;
+            }
+            
+            .project:hover {
+                transform: translateX(5px);
+            }
+            
+            .project h3 {
+                margin-top: 0;
+            }
+            
+            /* Footer */
+            footer {
+                text-align: center;
+                padding: 20px;
+                margin-top: 50px;
+                background-color: #2c3e50;
+                color: #ecf0f1;
+                border-radius: 0 0 8px 8px;
+            }
+            
+            /* Responsive design */
+            @media (max-width: 768px) {
+                .container {
+                    padding: 10px;
+                }
+                
+                header {
+                    padding: 20px 0;
+                }
+                
+                header h1 {
+                    font-size: 2em;
+                }
+                
+                section {
+                    padding: 0 10px;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+        <h1>Zak's Webpage</h1>
+        <section>
+        
+        <h2>Introduction</h2>
+        <p>Hi, my name is Zak, and I am a PhD student in computer science at the University of Oklahoma. This is my website. Isn't it exciting?! I will try to post things here that I find interesting and direct people to projects they might be interested in. Enjoy.</p>
+        
+        <h2>About Me</h2>
+        <p>I have been a software engineer for 15 years. I've worked for the FAA, and currently work for the United States Air Force as a research scientist.</p>
 
-    <h2>Current Research</h2>
-    <ul>
-        <li>Alternative metrics for machine learning models.</li>
-        <li>Tiny Machine Learning</li>
-    </ul>
-    
-</body>
+        <h2>Current Research</h2>
+        <ul>
+            <li>Alternative metrics for machine learning models.</li>
+            <li>Tiny Machine Learning</li>
+            <li>Tiny Transformers</li>
+        </ul>
+
+        <h2>Publications</h2>
+
+        <h3>Contributor</h3>
+        <ul>
+            <li><a href="https://ieeexplore.ieee.org/document/10748781/">MURDOC: Transforming Pixels into Perception for Camouflage Detection</a></li>
+        </ul>
+
+        <h2>Education</h2>
+
+        <h2>Links</h2>
+        <ul>
+            <li><a href="https://github.com/zkastl">My Github</a></li>
+            <li><a href="mailto:zkastl@protonmail.com">Email Me</a></li>
+        </ul>
+
+        <h2>Online Business Card</h2>
+
+        <footer style="margin-top: 50px; border-top: 1px solid #ccc; padding-top: 20px; text-align: center;">
+            <p>© 2025 Zak Kastl | Last Updated: March 2025</p>
+        </footer>   
+    </div>     
+    </body>
+</html>
